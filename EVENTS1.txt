@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="div2" style="background-color: aqua;">
+        <div  class="parent" >
+            <h1>EVENTS 1</h1>
+             <h2>Number of availble seat 23 </h2>
+        
+</div>
+        
+<div class="div1" style="background-color: bisque;">
+    <div class="row">
+      <div class="col">
+        <br>
+        
+        <img src="https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?cs=srgb&dl=pexels-wolfgang-2747449.jpg&fm=jpg"
+        style="width:50%;">
+      </div>
+      <div class="col">
+                <form>
+            <div>
+              <label for="fisrt Name">Name</label>
+              <input type="first Name" placeholder="Enter Name" id="first Name">
+            </div>
+            <div>
+              <label for="mail">Email</label>
+              <input type="mail" placeholder=" Email-id" id="mail">
+            </div>
+            <div>
+              <label for="Number">Ph- Number</label>
+              <input type="Number" placeholder="Enter Number" id="Number">
+            </div>
+            <div>
+                <label> Select Number </label>  
+   <select> 
+    <option value = "value1"> select value  
+    </option> 
+<option value = "value1"> 1  
+</option>  
+<option value = "value2"> 2   
+</option>  
+<option value = "value3"> 3
+</option>  
+<option value = "value4"> 4  
+</option>  
+</select>
+            </div>
+
+            <div>
+                <label for="Attendee">Name of Attendee</label>
+                <input type="Attendee" placeholder="Enter Name" id="Attendee">
+              </div><br>
+              <br>
+              <div>
+                <button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-secondary">cancel</button>
+              </div>
+            </form>
+      </div>
+      
+    </div>
+        
+</body>
+</html>
